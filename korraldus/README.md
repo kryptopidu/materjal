@@ -8,7 +8,7 @@
 
 * Andmete säilitamine: Truecrypt, andmete kustutamine
 
-  Eno
+  Eno, Riivo
 
 * Thunderbirdi kasutamine ID-kaardiga (Outlook?)
 
