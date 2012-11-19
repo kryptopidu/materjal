@@ -1,5 +1,5 @@
-Truecrypt
-=========
+Kõvaketta ja failide krüpteerimine: Truecrypt
+=============================================
 
 Meil kõigil on arvutis faile, mida teistel pole vaja näha. Lihtne võimalus on panna oma arvuti kasutajakontole parool ja kasutada ekraanilukku, aga mis siis saab, kui teie arvuti varastatkse? Sel juhul pole kasutajakonto paroolist midagi abi, sest vargal on väga lihtne pääseda teile failidele ligi failisüsteemi tasemel ilma et ta peaks teie operatsioonisüsteemi käivitamagi. Selle vastu aitab tähtsate failide või terve kõvaketta krüpteerimine.
 
@@ -34,3 +34,9 @@ Krüpteeritud failikonteineri loomiseks toimige nii:
 
 
 Truecrypti krüpteeritud failikonteiner töötab sarnaselt ID-kaardiga failide krüpteerimisele, aga kuna see ühendatakse arvutisse virtuaalse kettana, siis on seda mugavam kasutada ning lisaks ei pea muretsema selle pärast, et peale ID-kaardi sertifikaatide uuendamist ei pääse oma failidele enam ise ka ligi.
+
+Nagu eelpool mainitud, saab Truecrypt abil krüpteerida ka terve kõvaketta (või partitsiooni) või näiteks mälupulga. Protsess on siin kirjeldatule analoogne, aga *Create New Volume...* dialoogis tuleks siis valida kas *Encrypt a non-system partition/drive* või *Encrypt the system partition or entire system drive*. Viimasel juhul krüpteeritakse süsteemiketas (Windowsis näiteks *C:\\*) ning arvuti käivitamisel küsitakse kohe parooli, et operatsioonisüsteemi üldse laadida  saaks.
+
+----
+
+Juhend on saadaval ka Krüptopeo lehe kaudu: http://is.gd/kryptopidu
