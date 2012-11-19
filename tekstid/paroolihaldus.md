@@ -3,11 +3,11 @@ Paroolihaldus
 
 Üheks kõige elementaarsemaks digitaalse turvalisuse alustalaks on parool e. salasõna. Turvaline parool peaks olema piisavalt pikk (15+ sümbolit), sisaldama nii väike- kui suurtähti ning soovitavalt ka numbrimärke ja/või teisi levinud sümboleid. Targalt valitud parool ei tohiks sisaldada kergesti arvatavaid elemente nagu näiteks omaniku sünnikuupäev, pereliikmete nimed ning levinud tsitaate või muid elementaarseid sõnapaare mida on sõnaraamat-tüüpi rünnakutega lihtne lahti murda.
 
-Sellised ranged nõudmised salasõnale, inimeste mugavus ja suur salasõnapõhist autentimist nõudvate teenuste hulk tekitavad olukorra kus kiusatus on kasutada samu või väga väikeste variatsioonidega paroole erinevate kontode puhul. Kui nüüd üks nendest paroolidest sattub pahalase kätte, sattuvad ohtu ka paljud teised turvatud kontod. 
+Sellised ranged nõudmised salasõnale, inimeste mugavus ja suur salasõnapõhiste autentimist nõudvate teenuste hulk tekitavad olukorra kus kiusatus on kasutada samu või väga väikeste variatsioonidega paroole erinevate kontode puhul. Kui nüüd üks nendest paroolidest sattub pahalase kätte, sattuvad ohtu ka paljud teised turvatud kontod. 
 
 Antud olukorrale pakub lahenduse paroolihaldustarkvara, mis hoiustab kõik paroolid ühtses krüpteeritud andmebaasifailis, millele kasutaja pääseb ligi hoolikalt valitud peaparooliga. Üks selline levinud tarkvaralahendus on avatud lähtekoodiga [KeePass][1], mis on kasutatav nii Windows, Mac OS X ja Linuxi operatsioonisüsteemidel. KeePass'i parooliandmebaase saab avada ka nutitelefoni jaoks loodud rakendustega: [KeePassDroid][2] (Android) ja [MiniKeePass][3] (iPhone).
 
-KeePass toetab hetkel *Global Auto-Type* funktsiooni abil automaatset paroolide sisestamist interneti lehitseja ja muude programmide väljadele vaid Windowsi keskkonnas. Linuxi all soovitame kasutada [KeePassX][1] rakendust. Loodetavasti toetab KeePassX lähitulevikus *Global Auto-Type* funktsiooni ka Windows ja Mac OS X versioonides.
+KeePass toetab hetkel *Global Auto-Type* funktsiooni abil automaatset paroolide sisestamist internetilehitseja ja muude programmide väljadele vaid Windowsi keskkonnas. Linuxi all soovitame kasutada [KeePassX][1] rakendust. Loodetavasti toetab KeePassX lähitulevikus *Global Auto-Type* funktsiooni ka Windows ja Mac OS X versioonides.
 
 
 KeePass'i seadistamine ja kasutamine (Windows'is):
@@ -15,11 +15,11 @@ KeePass'i seadistamine ja kasutamine (Windows'is):
 
 1) Laadige KeePass Classic versioon alla aadressilt [http://keepass.info/download.html](http://keepass.info/download.html), paigaldage oma arvutisse teile meelepärasesse kataloogi ja käivitage. Classic versiooni soovitame kasutada selle pärast, et see toetab ainult KeePass x.1 tüüpi andmebaasifaili formaati, mis ühildub nii KeePassX kui ka nutitelefonidele mõeldud rakendustega.
 
-2) Loome uue andmebaasifaili valides *File* menüüst *New* ja sisestage turvastandardeid järgiv peaparool. See on ainuke parool, mida te edaspidi peate meeles pidama.
+2) Looge uus andmebaas valides *File* menüüst *New* ning sisestage turvastandardeid järgiv peaparool. See on ainuke parool, mida te edaspidi peate meeles pidama.
 
-3) Valige *File* menüüst *Save As* ja valige oma paroole säilitavale andmebaasifailile sobilik nimi ja kataloog.
+3) Valige *File* menüüst *Save As* ja määrake oma paroole säilitavale andmebaasifailile sobilik nimi ja kataloog.
 
-4) Paneme paika soovituslikud seaded (puuduvad linnukesed) menüüst *Tools* -> *Options*:
+4) Pange paika soovituslikud seaded (puuduvad linnukesed) menüüst *Tools* -> *Options*:
 
    - Security
       - Lock workspace when minimizing the main window
@@ -51,11 +51,11 @@ KeePassX'i seadistamine ja kasutamine (Linux'is):
 
 1) Laadige KeePassX alla aadressilt [https://www.keepassx.org/downloads] (https://www.keepassx.org/downloads), paigaldage oma arvutisse teile meelepärasesse kataloogi ja käivitage.
 
-2) Loome uue andmebaasifaili valides *File* menüüst *New Database* ja sisestage turvastandardeid järgiv peaparool. See on ainuke parool, mida te edaspidi peate meeles pidama.
+2) Looge uus andmebaasi valides *File* menüüst *New Database* ja sisestage turvastandardeid järgiv peaparool. See on ainuke parool, mida te edaspidi peate meeles pidama.
 
-3) Valige *File* menüüst *Save Database As* ja valige oma paroole säilitavale andmebaasifailile sobilik nimi ja kataloog.
+3) Valige *File* menüüst *Save Database As* ja määrake oma paroole säilitavale andmebaasifailile sobilik nimi ja kataloog.
 
-4) Paneme paika soovituslikud seaded (puuduvad linnukesed) menüüst *Extras* -> *Settings*:
+4) Pange paika soovituslikud seaded (puuduvad linnukesed) menüüst *Extras* -> *Settings*:
 
    - General (1)
       - Show system tray icon
@@ -84,11 +84,10 @@ Valige vasakult tulbast sobiv kategooria ja klikake ikooniribal rohelise nooleke
 Lisamärkused:
 -------------
 
-Paroole sisaldavat krüpteeritud andmebaasifaili on kõige lihtsam sünkroniseerida ja jagada teiste seadmetegega, kasutades [DropBox][5] teenust.
+Paroole sisaldavat krüpteeritud andmebaasifaili on kõige lihtsam sünkroniseerida ja jagada teiste seadmetegega kasutades [DropBox][5] teenust.
 
-Ärge lisage KeePass(X) andmebaasi elulise tähtsusega paroole - pankade paroole ja oma peamist e-maili konto parooli. See vähendab olulisel määral turvariski kui pahalane peaks mingil põhjusel teie KeePass(X) andmebaasi sisule ligi pääsema.
+Ärge lisage KeePass(X) andmebaasi elulise tähtsusega paroole - pankade paroole, id-kaardi PIN koode ja oma peamist e-maili konto salasõna. See vähendab olulisel määral turvariski kui pahalane peaks mingil põhjusel teie KeePass(X) andmebaasi sisule ligi pääsema.
 
-Viited:
 
 [1]: http://keepass.info
 [2]: https://play.google.com/store/apps/details?id=com.android.keepass&hl=en
