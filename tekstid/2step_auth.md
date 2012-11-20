@@ -11,7 +11,7 @@ Google 2-astmelise autentimise seadistamine:
 
 2. Sisestage enda telefoninumber ja valige riik. Valige koodi edastuse meetodiks SMS ja vajutage nuppu *Saada kood* / *Send Code*. Teie telefonile peaks saabuma sõnum 6-kohalise koodiga. Sisestage see kood nõutud väljale ja vajutage nuppu *Kinnita* / *Verify*.
 
-3. Kui te olete sisse logitud oma enda arvutist, siis jätke linnuke ette valikule *Lisa see arvuti usaldusväärsete arutite hulka * / *Trust this computer*. Vajutage *Edasi* / *Next* ja kinnitage oma soovi rakendada edaspidisest 2-astmelist autentimist.
+3. Kui te olete sisse logitud oma enda arvutist, siis jätke linnuke ette valikule *Lisa see arvuti usaldusväärsete arutite hulka* / *Trust this computer*. Vajutage *Edasi* / *Next* ja kinnitage oma soovi rakendada edaspidisest 2-astmelist autentimist.
 
 4. Järgnev lehekülg kirjeldab teile erinevaid lisavõimalusi kuidas saate 2-astmelist autentimist kasutada olukorras kus kaotasite (unustasite mujale) oma telefoni või kui teil puudub levi. Nendeks võimalusteks on tagavara telefoninumbri lisamine, nutitelefoni kasutamine olukorras kus puudub levi või tagavarakoodide välja printimine paberile.
 
